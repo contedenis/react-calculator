@@ -1,0 +1,32 @@
+.page404 {
+    background: #FAFAFA;
+    color: #18181A;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    overflow: hidden;
+    position: relative;
+  
+    &__content {
+      margin: 180px auto;
+      padding: 0 10px;
+      text-align: center;
+      width: 1170px;
+    }
+  
+    &__404 {
+      color: #21c0c0;
+      font-family: "Roboto","Code-Pro","Helvetica Neue",Helvetica,Arial,Sans-serif;
+      font-size: 270px;
+      font-weight: 100;
+      line-height: 0.9em;
+      margin: 0;
+    }
+    &__title {
+      font-family: "Roboto","Helvetica Neue",Helvetica,Arial,sans-serif;
+      font-size: 30px;
+      font-weight: 100;
+      line-height: 1.1;
+      margin-bottom: 20px;
+    }
+  }
+  

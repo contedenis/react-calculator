@@ -1,0 +1,9 @@
+.tab {
+  width: 350px;
+  margin: 25px auto;
+
+  &__header {
+    display: flex;
+    align-items: center;
+  }
+}

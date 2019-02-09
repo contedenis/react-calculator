@@ -1,0 +1,13 @@
+.calculator {
+  background: #EBEBEB;
+  height: 400px;
+  perspective: 0 200px;
+  position: relative;
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 80%;
+  }
+}

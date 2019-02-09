@@ -1,0 +1,34 @@
+
+.button {
+    align-items: center;
+    background: -moz-linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+    background: -webkit-linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+    background: #cad2c5;
+    background: linear-gradient(45deg, #cad2c5 0%, #abb5aa 100%);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    font-size: 24px;
+    height: 20%;
+    justify-content: center;
+    min-width: 25%;
+    width: 25%;
+
+    &[data-size="2"] {
+      height: 40%;
+    };
+
+    &[data-value="null"] {
+      pointer-events: none;
+    };
+
+    &:hover {
+      background: #d7ddd3;
+      cursor: pointer;
+    };
+
+    &:active {
+      background: #bdc7b7;
+    };
+  };

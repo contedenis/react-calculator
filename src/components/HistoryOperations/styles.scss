@@ -1,0 +1,15 @@
+.history-operations {
+  background: linear-gradient(to bottom, #59C3C3, white);
+  &__icon {
+    cursor: pointer;
+  }
+  &__result {
+    width: 100%;
+  }
+  &__empty-state {
+    padding: 20px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+}
