@@ -1,2 +1,6 @@
 # dependencies
+.vscode
 /node_modules
+gitconfig
+npmrc
+package-lock.json
